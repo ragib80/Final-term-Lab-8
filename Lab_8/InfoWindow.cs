@@ -31,7 +31,7 @@ namespace Lab_8
                  "\nState: {11}" +
                  "\nZip Code: {12}" +
                  "\nPhone: {13}" +
-                 "\nCell Type: {14}", u.Name, u.Email, u.Gender, u.DOB, u.Email, u.Password1, u.Password2, u.SeQuestion, u.SeAnswer, u.Address, u.City, u.State, u.Zip, u.Phone, u.Mobile);
+                 "\nCell Type: {14}", u.Firstname,u.Lastname, u.DOB, u.Gender, u.Email, u.Password1, u.Password2, u.SeQuestion, u.SeAnswer, u.Address, u.City, u.State, u.Zip, u.Phone, u.Mobile);
 
             richTextBox1.Text = output;
         }

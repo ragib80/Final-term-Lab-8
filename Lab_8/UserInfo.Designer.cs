@@ -30,6 +30,10 @@ namespace Lab_8
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxYear = new System.Windows.Forms.ComboBox();
+            this.comboBoxDay = new System.Windows.Forms.ComboBox();
+            this.comboBoxMonth = new System.Windows.Forms.ComboBox();
+            this.comboBoxGender = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBoxMobile = new System.Windows.Forms.ComboBox();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
@@ -61,15 +65,13 @@ namespace Lab_8
             this.textBoxFName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBoxGender = new System.Windows.Forms.ComboBox();
-            this.comboBoxYear = new System.Windows.Forms.ComboBox();
-            this.comboBoxDay = new System.Windows.Forms.ComboBox();
-            this.comboBoxMonth = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.comboBoxYear);
             this.panel1.Controls.Add(this.comboBoxDay);
             this.panel1.Controls.Add(this.comboBoxMonth);
@@ -110,6 +112,122 @@ namespace Lab_8
             this.panel1.Size = new System.Drawing.Size(675, 717);
             this.panel1.TabIndex = 1;
             // 
+            // comboBoxYear
+            // 
+            this.comboBoxYear.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxYear.FormattingEnabled = true;
+            this.comboBoxYear.Items.AddRange(new object[] {
+            "1995",
+            "1996",
+            "1997",
+            "1998",
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020"});
+            this.comboBoxYear.Location = new System.Drawing.Point(447, 135);
+            this.comboBoxYear.Name = "comboBoxYear";
+            this.comboBoxYear.Size = new System.Drawing.Size(63, 21);
+            this.comboBoxYear.TabIndex = 47;
+            this.comboBoxYear.Text = "Year";
+            // 
+            // comboBoxDay
+            // 
+            this.comboBoxDay.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxDay.FormattingEnabled = true;
+            this.comboBoxDay.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
+            this.comboBoxDay.Location = new System.Drawing.Point(365, 135);
+            this.comboBoxDay.Name = "comboBoxDay";
+            this.comboBoxDay.Size = new System.Drawing.Size(63, 21);
+            this.comboBoxDay.TabIndex = 46;
+            this.comboBoxDay.Text = "Day";
+            // 
+            // comboBoxMonth
+            // 
+            this.comboBoxMonth.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxMonth.FormattingEnabled = true;
+            this.comboBoxMonth.Items.AddRange(new object[] {
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "july",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"});
+            this.comboBoxMonth.Location = new System.Drawing.Point(287, 135);
+            this.comboBoxMonth.Name = "comboBoxMonth";
+            this.comboBoxMonth.Size = new System.Drawing.Size(63, 21);
+            this.comboBoxMonth.TabIndex = 45;
+            this.comboBoxMonth.Text = "Month";
+            // 
+            // comboBoxGender
+            // 
+            this.comboBoxGender.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBoxGender.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxGender.FormattingEnabled = true;
+            this.comboBoxGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.comboBoxGender.Location = new System.Drawing.Point(287, 168);
+            this.comboBoxGender.Name = "comboBoxGender";
+            this.comboBoxGender.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxGender.TabIndex = 39;
+            this.comboBoxGender.Text = "Choose a Gender";
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,9 +250,9 @@ namespace Lab_8
             "Cell"});
             this.comboBoxMobile.Location = new System.Drawing.Point(503, 606);
             this.comboBoxMobile.Name = "comboBoxMobile";
-            this.comboBoxMobile.Size = new System.Drawing.Size(73, 27);
+            this.comboBoxMobile.Size = new System.Drawing.Size(97, 27);
             this.comboBoxMobile.TabIndex = 34;
-            this.comboBoxMobile.Text = "Mobile";
+            this.comboBoxMobile.Text = "Phone type";
             // 
             // textBoxPhone
             // 
@@ -179,8 +297,9 @@ namespace Lab_8
             this.comboBoxState.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxState.FormattingEnabled = true;
             this.comboBoxState.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
+            "Dhaka",
+            "Chittagong",
+            "Rajhshahi"});
             this.comboBoxState.Location = new System.Drawing.Point(288, 539);
             this.comboBoxState.Name = "comboBoxState";
             this.comboBoxState.Size = new System.Drawing.Size(211, 27);
@@ -381,14 +500,10 @@ namespace Lab_8
             // 
             // label3
             // 
-           /* this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(133, 93);
+            this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 21);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Last Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);*/
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 48;
             // 
             // textBoxFName
             // 
@@ -418,121 +533,15 @@ namespace Lab_8
             this.label1.TabIndex = 1;
             this.label1.Text = "Personal Information";
             // 
-            // comboBoxGender
+            // label18
             // 
-            this.comboBoxGender.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBoxGender.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBoxGender.FormattingEnabled = true;
-            this.comboBoxGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.comboBoxGender.Location = new System.Drawing.Point(287, 168);
-            this.comboBoxGender.Name = "comboBoxGender";
-            this.comboBoxGender.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxGender.TabIndex = 39;
-            this.comboBoxGender.Text = "Choose a Gender";
-            // 
-            // comboBoxYear
-            // 
-            this.comboBoxYear.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBoxYear.FormattingEnabled = true;
-            this.comboBoxYear.Items.AddRange(new object[] {
-            "1995",
-            "1996",
-            "1997",
-            "1998",
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020"});
-            this.comboBoxYear.Location = new System.Drawing.Point(447, 135);
-            this.comboBoxYear.Name = "comboBoxYear";
-            this.comboBoxYear.Size = new System.Drawing.Size(63, 21);
-            this.comboBoxYear.TabIndex = 47;
-            this.comboBoxYear.Text = "Year";
-            // 
-            // comboBoxDay
-            // 
-            this.comboBoxDay.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBoxDay.FormattingEnabled = true;
-            this.comboBoxDay.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31"});
-            this.comboBoxDay.Location = new System.Drawing.Point(365, 135);
-            this.comboBoxDay.Name = "comboBoxDay";
-            this.comboBoxDay.Size = new System.Drawing.Size(63, 21);
-            this.comboBoxDay.TabIndex = 46;
-            this.comboBoxDay.Text = "Day";
-            // 
-            // comboBoxMonth
-            // 
-            this.comboBoxMonth.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBoxMonth.FormattingEnabled = true;
-            this.comboBoxMonth.Items.AddRange(new object[] {
-            "jan",
-            "feb",
-            "mar",
-            "apr",
-            "may",
-            "jun",
-            "july",
-            "aug",
-            "sep",
-            "oct",
-            "nov",
-            "dec"});
-            this.comboBoxMonth.Location = new System.Drawing.Point(287, 135);
-            this.comboBoxMonth.Name = "comboBoxMonth";
-            this.comboBoxMonth.Size = new System.Drawing.Size(63, 21);
-            this.comboBoxMonth.TabIndex = 45;
-            this.comboBoxMonth.Text = "Month";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(133, 93);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(91, 21);
+            this.label18.TabIndex = 49;
+            this.label18.Text = "Last Name";
             // 
             // UserInfo
             // 
@@ -586,5 +595,6 @@ namespace Lab_8
         private System.Windows.Forms.ComboBox comboBoxYear;
         private System.Windows.Forms.ComboBox comboBoxDay;
         private System.Windows.Forms.ComboBox comboBoxMonth;
+        private System.Windows.Forms.Label label18;
     }
 }

@@ -11,3 +11,16 @@ C:\Users\ragib\Music\LabTasks-mastersomu\Lab8\Lab_8\obj\Debug\Lab8.csproj.Genera
 C:\Users\ragib\Music\LabTasks-mastersomu\Lab8\Lab_8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
 C:\Users\ragib\Music\LabTasks-mastersomu\Lab8\Lab_8\obj\Debug\Lab_8.exe
 C:\Users\ragib\Music\LabTasks-mastersomu\Lab8\Lab_8\obj\Debug\Lab_8.pdb
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\bin\Debug\Lab_8.exe.config
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\bin\Debug\Lab_8.exe
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\bin\Debug\Lab_8.pdb
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab8.csprojAssemblyReference.cache
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.Dashboard.resources
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.Form1.resources
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.InfoWindow.resources
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.Properties.Resources.resources
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.UserInfo.resources
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab8.csproj.GenerateResource.cache
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.exe
+G:\Ragib\8 semester\c # Lab\Lab8\Lab_8\obj\Debug\Lab_8.pdb

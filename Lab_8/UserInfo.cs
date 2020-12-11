@@ -19,7 +19,7 @@ namespace Lab_8
 
         private void SubmitClick(object sender, EventArgs e)
         {
-            MessageBox.Show("click");
+            MessageBox.Show("Info found! click  ok ");
             User u = new User();
             u.Firstname = textBoxFName.Text;
             u.Lastname = textBoxLName.Text;
